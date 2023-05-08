@@ -130,10 +130,11 @@ Your application will be built and deployed based on any public repositories fro
 
 Examples:
 
-- https://github.com/coollabsio/nodejs-example -> You can choose the branch.
-- https://github.com/coollabsio/nodejs-example/tree/main -> Preselect `main` branch.
-- https://gitlab.com/aleveha/fastify-example -> You can choose the branch.
-- https://gitlab.com/aleveha/fastify-example/-/tree/master -> Preselect `master` branch.
+- https://github.com/coollabsio/coolify-examples -> You can choose the branch.
+- https://github.com/coollabsio/coolify-examples/tree/nodejs-fastify -> NodeJS & Fastify.
+- https://github.com/coollabsio/coolify-examples/tree/compose -> Docker Compose
+- https://github.com/coollabsio/coolify-examples/tree/react-vite -> React & Vite
+- https://github.com/coollabsio/coolify-examples/tree/static -> Static
 
 ### Simple Dockerfile
 
