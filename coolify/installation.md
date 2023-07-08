@@ -45,11 +45,20 @@ head:
 
 This section provide details on how to install Coolify.
 
-Before running the install script, please ensure your server has the following packages installed:
+Before running the install script, please ensure your server is updated and has the following packages installed:
 
 - `sudo`
 - `wget`
 - `curl`
+
+
+```bash
+sudo su
+```
+
+```bash
+apt update && apt -y upgrade && apt -y install curl wget sudo
+```
 
 ## Scripted
 
