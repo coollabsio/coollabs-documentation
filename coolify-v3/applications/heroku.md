@@ -41,6 +41,6 @@ head:
       content: https://cdn.coollabs.io/assets/coollabs/og-image-applications.png
 ---
 # Heroku
-Based on [heroku builder](https://github.com/heroku/builder).
+Based on [heroku builder](https://github.com/heroku/cnb-builder-images).
 
 You can easily migrate your Heroku applications with this build pack.
