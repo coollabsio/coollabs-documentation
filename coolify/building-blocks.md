@@ -142,7 +142,9 @@ A service is a more complex type of resource, that consists of several other res
 Imagine you would like to deploy a Wordpress application, you would need a database, a web server and a PHP runtime. You could create a service that consists of these resources, grouped together and created automatically for you. Each resource in a service could be deployed to a different server.
 
 ## Proxy
-A server could have a proxy that is used to route traffic to the right resource. It is not mandatory, but it is highly recommended to use a proxy.
+A server could have a proxy that is used to route traffic to the right resource. It is not mandatory, but it is highly recommended to use a proxy. By default you will have to set up your own proxy to allow domains to access your Coolify applications, of which each is stored in ther own docker container.
+
+To use Coolify's built-in proxy which is built on top of Traefik, in the dashboards page, under the "Destinations" category, click on a destination such as "Local Docker" and enable the setting "Use Coolify Proxy?" and click save. Do not click "Force restart proxy" as that will reset the setting you just enabled.
 
 Coolify uses Traefik at the moment. Configuration done automatically by Coolify in case you deploy a resource that requires this proxy.
 
