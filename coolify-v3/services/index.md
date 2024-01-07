@@ -84,7 +84,7 @@ All data are persistent. That means, if you stop a service, all your data persis
 You can check the runtime logs of your services.
 
 ## Secrets
-There are some predefined secrets on the frontend, that are generated automatically (like passwords, users.) or you can fill manually. If you need any futher environment variable, you can define them in the secrets tab.
+There are some predefined secrets on the frontend, that are generated automatically (like passwords, users.) or you can fill manually. If you need any further environment variable, you can define them in the secrets tab.
 
 ## Update Versions
 If you stop/start a service, the latest docker image will be pulled for the selected image tag.

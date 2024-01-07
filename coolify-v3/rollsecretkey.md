@@ -64,7 +64,7 @@ If you are just installing Coolify, you do not need to do anything.
 
 (It also solve this [issue](https://github.com/coollabsio/coolify/issues/1148) related to **secretOrPrivateKey must be an asymmetric key when using RS256** or **Getting 500 error when accessing running services**).
 
-If you want to rollback to the old secret key, you need to do the followings:
+If you want to rollback to the old secret key, you need to do the following:
 
 1. Login to your Coolify instance via SSH.
 2. Switch to root user (`sudo su -`) and locate your `~/coolify/.env` file. 

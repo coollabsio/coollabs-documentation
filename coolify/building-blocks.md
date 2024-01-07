@@ -49,7 +49,7 @@ Servers are where all your resources are deployed to.
 
 ### Types
 - **Localhost:** the server where Coolify is installed.
-- **Remote Server:** could be any server, rechable through SSH.
+- **Remote Server:** could be any server, reachable through SSH.
 
 ### Requirements
 #### Localhost
@@ -65,7 +65,7 @@ You can use our [Cloud](https://app.coolify.io) version, so you only need a serv
 #### Remote Server
 Its only purpose to host your resources, not Coolify itself.
 
-You need the followings on the remote server:
+You need the following on the remote server:
 
 1. Connectivity
    - SSH connectivity between Coolify and the server with SSH Key Authentication.
