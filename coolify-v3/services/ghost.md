@@ -65,7 +65,7 @@ Once the Ghost instance is up and running, follow the steps to set up a user:
 
 ## Set up email for Ghost
 
-You can set up email service for Ghost by using enviroment variables. Specify the following enviroment variables inside the service's Secrets tab within Coolify:
+You can set up email service for Ghost by using environment variables. Specify the following environment variables inside the service's Secrets tab within Coolify:
 
 1. mail__options__from - Specify the from email address (If you receive an error when sending emails, try changing mail__options__from to mail__from instead)
 2. mail__transport - Preferably SMTP 
